@@ -1,8 +1,10 @@
+import Header from "./pages/Header";
+
 // App.tsx
 export default function App() {
     return (
-        <h1 className="w-screen h-screen flex justify-center items-center text-pink-500 underline text-6xl">
-            Hello world!
-        </h1>
+        <div className="box-border min-h-screen overflow-x-hidden w-full  py-3 px-4">
+            <Header />
+        </div>
     );
 }
